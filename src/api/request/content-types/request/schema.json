@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "requests",
+  "info": {
+    "singularName": "request",
+    "pluralName": "requests",
+    "displayName": "Request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descr": {
+      "type": "text",
+      "required": true
+    },
+    "nameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "namePlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "phonePlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "smallDescriptionLabel": {
+      "type": "string",
+      "required": true
+    },
+    "smallDescriptionPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "recipient": {
+      "type": "string",
+      "required": true
+    },
+    "phoneLabel": {
+      "type": "string",
+      "required": true
+    },
+    "connectType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.connect-type"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.socia-links"
+    },
+    "socialLabels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.social-labels"
+    },
+    "phoneNumLabel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNum": {
+      "type": "string"
+    },
+    "connectTypeLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "orgLabel": {
+      "type": "string"
+    },
+    "orgPlaceholder": {
+      "type": "string"
+    }
+  }
+}
